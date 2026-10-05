@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Asha
+Comment=Your desktop AI companion
+Exec=/opt/Asha/Asha
+Icon=/opt/Asha/assets/icons/tray_icon.png
+Terminal=false
+Categories=Utility;

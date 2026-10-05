@@ -1,0 +1,20 @@
+# Desktop AI Pet - Asha
+# Core (all phases)
+PySide6>=6.6.0
+
+# Phase 2: AI + voice
+openai>=1.30.0            # OpenAI provider (optional if using only Ollama)
+pyttsx3>=2.90              # offline text-to-speech
+SpeechRecognition>=3.10.0  # speech-to-text
+PyAudio>=0.2.14            # microphone access for SpeechRecognition
+# pocketsphinx>=5.0.0      # OPTIONAL: fully-offline STT backend; uncomment if needed
+
+# Phase 3: desktop awareness
+psutil>=5.9.0               # CPU / RAM / battery
+pygetwindow>=0.0.9; sys_platform == "win32"   # active window title on Windows
+
+# Phase 5: packaging
+pyinstaller>=6.6.0
+
+# Testing
+pytest>=8.0.0
